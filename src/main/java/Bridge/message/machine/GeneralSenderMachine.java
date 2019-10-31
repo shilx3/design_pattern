@@ -8,8 +8,10 @@ public class GeneralSenderMachine extends SenderMachine {
         super(messageSender);
     }
 
+    @Override
     public void send(String message){
-
+        System.out.println("本条为一般情况消息.");
+        sender.send(message);
     }
 
 }

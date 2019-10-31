@@ -10,11 +10,8 @@ public abstract class SenderMachine {
         this.sender = messageSender;
     }
 
-    public void generalSend(String message){
+    public void send(String message){
         sender.send(message);
     }
 
-    public void urgencySend(String message){
-        sender.send(message);
-    }
 }
