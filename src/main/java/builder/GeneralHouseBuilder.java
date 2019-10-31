@@ -34,7 +34,7 @@ public class GeneralHouseBuilder implements HouseBuilder {
     }
 
     @Override
-    public void createToliet()
+    public void createToilet()
     {
         house.toliet=1;
         System.out.println("平民房就一个厕所！");
@@ -47,7 +47,7 @@ public class GeneralHouseBuilder implements HouseBuilder {
         createArea();
         createCarNum();
         createSleeping();
-        createToliet();
+        createToilet();
         return house;
     }
 }

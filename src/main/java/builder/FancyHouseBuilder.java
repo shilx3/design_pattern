@@ -34,7 +34,7 @@ public class FancyHouseBuilder implements HouseBuilder {
     }
 
     @Override
-    public void createToliet()
+    public void createToilet()
     {
         house.toliet=666;
         System.out.println("土豪房子厕所大大的！");
@@ -47,7 +47,7 @@ public class FancyHouseBuilder implements HouseBuilder {
         createArea();
         createCarNum();
         createSleeping();
-        createToliet();
+        createToilet();
         return house;
     }
 }

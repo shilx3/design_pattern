@@ -5,6 +5,6 @@ public interface HouseBuilder {
     public void createArea();
     public void createSleeping();
     public void createCarNum();
-    public void createToliet();
+    public void createToilet();
     public House createHouse();
 }
